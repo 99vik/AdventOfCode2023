@@ -3,7 +3,7 @@ import functools
 
 HAND_TYPES = [[1, 1, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2], [1, 1, 3], [2, 3], [1, 4], [5]]
 HAND_VALUES = ['2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K', 'A']
-file_path = 'camel_cards.csv'
+file_path = './day7/camel_cards.csv'
 data = []
 
 with open(file_path, 'r') as csv_file:
